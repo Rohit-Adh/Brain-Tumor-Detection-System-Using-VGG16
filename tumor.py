@@ -57,7 +57,7 @@ def get_base64_image(image_path):
     return f"data:{mime_type};base64,{encoded_string}"
 
 # Use any format: background.png, background.webp, background.gif, background.svg
-image_data_uri = get_base64_image("istockphoto-969148624-612x612.jpg")
+image_data_uri = get_base64_image("backgroundimage.jpg")
 
 # Inject targeted CSS
 background_image_css = f"""
